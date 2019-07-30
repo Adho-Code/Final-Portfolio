@@ -17,12 +17,12 @@ from decouple import config,Csv
 
 MODE=config("MODE" , default="dev")
 SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=false, cast=bool)
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 if config('MODE')=="dev":
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql_pycopg2',
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': config('DB_NAME'),
             'USER': config('DB_USER'),
             'PASSWORD': config('DB_PASSWORD'),
