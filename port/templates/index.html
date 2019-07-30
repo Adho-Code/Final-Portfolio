@@ -44,13 +44,13 @@
                 </div>
                 <!-- Heading & Description -->
 
-                <h2 class="h1 text-center">Recent Projects</h2>
+                <h2 class="h1 text-center">Recent Work</h2>
                 <hr>
 
                 <!--Grid row-->
-                {% if works %}
-                {% for work in works %}
-                {% if work.id < 4 %}
+                
+                
+                
                 <div class="row wow fadeIn">
 
                     <!--Grid column-->
@@ -59,7 +59,7 @@
                         <div class="view overlay rounded z-depth-1-half">
                             <div class="view overlay">
                                 <div class="">
-                                    <img class="img-responsive" width="100%" src="{{work.image.url}}" >
+                                    <img class="img-responsive" width="100%" src="../../static/images/neighbour.png" >
                                 </div>
                             </div>
                         </div>
@@ -69,16 +69,16 @@
                     <!--Grid column-->
                     <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
                         <h3 class="mb-3 font-weight-bold dark-grey-text">
-                            <strong>{{work.title}}</strong>
+                            <strong>Neighbourhood</strong>
                         </h3>
-                        <p class="grey-text">{{work.description}}</p>
+                        <p class="grey-text">This is a web application built in python that keeps track of people in your neighbor-hood,the activities happening in your neighbor-hood and the type of business your neighbors have .</p>
                         <p>
-                            Technologies used: <strong>{{work.technologies}}</strong>
+                            Technologies used: <strong>CSS for styling, HTML for webpage design, Python3.6, Django 1.11.,</strong>
                         </p>
-                        <a href="{{work.github}}" target="_blank" class="btn btn-primary btn-md">Visit GitHub Repository
+                        <a href="https://github.com/HabeshaQueen/Neighbourhood" target="_blank" class="btn btn-primary btn-md">Visit GitHub Repository
                             <i class="fab fa-github ml-2"></i>
                         </a>
-                        <a href="{{work.live}}" target="_blank" class="btn btn-primary btn-md">Open Site
+                        <a href="https://neighbourhoodchuu.herokuapp.com/" target="_blank" class="btn btn-primary btn-md">Open Site
                             <i class="fas fa-globe ml-2"></i>
                         </a>
                     </div>
@@ -87,9 +87,87 @@
                 </div>
 
                 <hr class="mb-5">
-                {% endif %}
-                {% endfor %}
-                {% endif %}
+                
+                
+                
+                <div class="row wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-5 col-xl-4 mb-4">
+                        <!--Featured image-->
+                        <div class="view overlay rounded z-depth-1-half">
+                            <div class="view overlay">
+                                <div class="">
+                                    <img class="img-responsive" width="100%" src="../../static/images/git.png" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+                        <h3 class="mb-3 font-weight-bold dark-grey-text">
+                            <strong>GitHub-Search</strong>
+                        </h3>
+                        <p class="grey-text">A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.</p>
+                        <p>
+                            Technologies used: <strong>Angular CLI, CSS for styling, HTML for webpage design, Typescript.</strong>
+                        </p>
+                        <a href="https://github.com/HabeshaQueen/Github-Search" target="_blank" class="btn btn-primary btn-md">Visit GitHub Repository
+                            <i class="fab fa-github ml-2"></i>
+                        </a>
+                        <a href="https://githubsearchchuu.netlify.com/" target="_blank" class="btn btn-primary btn-md">Open Site
+                            <i class="fas fa-globe ml-2"></i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+                <hr class="mb-5">
+                
+                
+                
+                <div class="row wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-lg-5 col-xl-4 mb-4">
+                        <!--Featured image-->
+                        <div class="view overlay rounded z-depth-1-half">
+                            <div class="view overlay">
+                                <div class="">
+                                    <img class="img-responsive" width="100%" src="../../static/images/instagram.png" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-7 col-xl-7 ml-xl-4 mb-4">
+                        <h3 class="mb-3 font-weight-bold dark-grey-text">
+                            <strong>INSTAGRAM</strong>
+                        </h3>
+                        <p class="grey-text">This is App that is built in python that allows users to view their favorite Photos and add post on it also comment on them.</p>
+                        <p>
+                            Technologies used: <strong>CSS for styling, HTML for webpage design, Python3.6, Django 1.11</strong>
+                        </p>
+                        <a href="https://github.com/HabeshaQueen/INSTRAGRAM" target="_blank" class="btn btn-primary btn-md">Visit GitHub Repository
+                            <i class="fab fa-github ml-2"></i>
+                        </a>
+                        <a href="https://inchuu-instagram.herokuapp.com/" target="_blank" class="btn btn-primary btn-md">Open Site
+                            <i class="fas fa-globe ml-2"></i>
+                        </a>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+
+                <hr class="mb-5">
+                
+                
+                
                 <!--Grid row-->
 
             </section>
