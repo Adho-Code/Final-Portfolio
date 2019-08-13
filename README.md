@@ -1,7 +1,6 @@
 # Portfolio
-ADHO ADHI'S PERSONAL PORTFOLIO, 06/2019
-# By Adho Adhi Galgallo
-APP
+ADHO ADHI'S PERSONAL PORTFOLIO
+
 # Description
 This portfolio contains relevant details about my projects and brief history about myself. From it one can also find my contact details to reach out to me in case of any questions or any projects they wish to create with me.
 
