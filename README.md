@@ -1,11 +1,11 @@
 # Portfolio
-* ADHO ADHI'S PERSONAL PORTFOLIO, 06/2019
+ADHO ADHI'S PERSONAL PORTFOLIO, 06/2019
 # By Adho Adhi Galgallo
-* APP
+APP
 # Description
-* This portfolio contains relevant details about my projects and brief history about myself. From it one can also find my contact details to reach out to me in case of any questions or any projects they wish to create with me.
+This portfolio contains relevant details about my projects and brief history about myself. From it one can also find my contact details to reach out to me in case of any questions or any projects they wish to create with me.
 
-#Setup/Installation Requirements
+# Setup/Installation Requirements
 
 * Fork the data onto your own personal repository.
 * Clone Project to your machine
@@ -15,7 +15,7 @@
 * Access the live site using the local host provided
 Or access the live website by clicking on this url https://adhoportfolio.herokuapp.com/
 # Known Bugs
-* No Bugs
+No Bugs
 
 # Technologies Used
 * CSS for styling.
@@ -28,5 +28,5 @@ Or access the live website by clicking on this url https://adhoportfolio.herokua
 * Telephone: +(254) 748 393 309
 * Email: adhoadhigal@gmail.com
 # License and Copyright details
-The MIT License (MIT)
-Copyright (c) 2019Adho Adhi Galgallo
+* The MIT License (MIT)
+* Copyright (c) 2019Adho Adhi Galgallo
